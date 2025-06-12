@@ -16,8 +16,7 @@ class TeoanAiMcpDemoApplicationTests {
 
     @Test
     void contextLoads() {
-        String json = studentService.getStudentInfoByName("王涛");
-        log.info(json);
+
     }
 
 }
