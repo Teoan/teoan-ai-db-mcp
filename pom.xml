@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.teoan</groupId>
-    <artifactId>teoan-ai-mcp-demo</artifactId>
+    <artifactId>teoan-ai-db-mcp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>teoan-ai-mcp-demo</name>
-    <description>teoan-ai-mcp-demo</description>
+    <name>teoan-ai-db-mcp</name>
+    <description>teoan-ai-db-mcp</description>
     <url/>
     <licenses>
         <license/>

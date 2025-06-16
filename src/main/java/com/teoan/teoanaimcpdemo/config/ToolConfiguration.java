@@ -1,6 +1,7 @@
 package com.teoan.teoanaimcpdemo.config;
 
-import com.teoan.teoanaimcpdemo.service.StudentService;
+
+import com.teoan.teoanaimcpdemo.tool.DBTool;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.context.annotation.Bean;
@@ -15,8 +16,7 @@ public class ToolConfiguration {
 
     // 注册暴露 MCP Server
     @Bean
-    public ToolCallbackProvider weatherTools(StudentService studentService) {
-        return MethodToolCallbackProvider.builder().toolObjects(studentService).build();
+    public ToolCallbackProvider configTools(DBTool dbTool) {
+        return MethodToolCallbackProvider.builder().toolObjects(dbTool).build();
     }
-
 }

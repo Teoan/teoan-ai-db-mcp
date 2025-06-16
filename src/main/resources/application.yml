@@ -16,7 +16,7 @@ logging:
     org.springframework.jdbc.core.StatementCreatorUtils: trace
 spring:
   application:
-    name: teoan-ai-mcp-demo
+    name: teoan-ai-db-mcp
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tclass?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
@@ -38,7 +38,7 @@ spring:
       ddl-auto: update
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    show-sql: false
+    show-sql: true
     open-in-view: false
     properties:
       hibernate:
