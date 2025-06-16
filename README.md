@@ -990,12 +990,12 @@ spring:
     password: teoan_pwd+-
 ```
 3. 启动项目，默认端口 8080
-4. 在大模型客户端中配置 mcp 服务，这里使用cherry-studio为例。
+4. 在大模型客户端中配置 mcp 服务，这里使用cherry-studio为例
 ![mcpConfig.png](doc/images/mcpConfig.png)
 ![mcpTool.png](doc/images/mcpTool.png)
 5. 对话测试
 ![chat1.png](doc/images/chat1.png)
- [chat2.png](doc/images/chat2.png)
- [chat3.png](doc/images/chat3.png)
- [chat4.png](doc/images/chat4.png)
- [chat5.png](doc/images/chat5.png)
+![chat2.png](doc/images/chat2.png)
+![chat3.png](doc/images/chat3.png)
+![chat4.png](doc/images/chat4.png)
+![chat5.png](doc/images/chat5.png)
